@@ -1,8 +1,7 @@
 const webdriver = require("selenium-webdriver");
 const  chrome = require("selenium-webdriver/chrome");
-const options = new chrome.Options();
 
-var chromeOptions = new chrome.Options();
+const  chromeOptions = new chrome.Options();
 chromeOptions.addArguments("start-maximized");
 //// chromeOptions.addArguments("incognito");
 //// chromeOptions.addArguments("headless");
